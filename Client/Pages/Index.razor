@@ -34,10 +34,11 @@
                     Earnings - Last 3 Months
                 </div>
                 <div class="card-body">
-                    <div style="display: flex">
+                    <div style="display:grid">
                         <PieChart Colors="@colors" Data="@earnings.CurrentMonth" />
                         <PieChart Colors="@colors" Data="@earnings.LastMonth" />
                         <PieChart Colors="@colors" Data="@earnings.PreviousMonth" />
+
                     </div>
                 </div>
             </div>
@@ -54,10 +55,13 @@
                     Expenses - Last 3 Months
                 </div>
                 <div class="card-body">
-                    <div style="display: flex">
+                    <div style="display: grid">
                         <PieChart Colors="@colors" Data="@expenses.CurrentMonth" />
                         <PieChart Colors="@colors" Data="@expenses.LastMonth" />
                         <PieChart Colors="@colors" Data="@expenses.PreviousMonth" />
+
+
+
                     </div>
                 </div>
             </div>

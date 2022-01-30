@@ -49,7 +49,7 @@ a{
     }
 }
 
-@media (min-width: 641px) {
+@media (min-width: 700px) {
     .page {
         flex-direction: row;
     }
