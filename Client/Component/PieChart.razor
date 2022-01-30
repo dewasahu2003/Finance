@@ -1,0 +1,12 @@
+﻿@using Finance.Client.Services;
+
+<div>
+    <div style="margin-top: 15px; margin-right: 90px; text-align: center;"><b>@Data.Label</b></div>
+    <RadzenChart>
+        <RadzenPieSeries Fills="@Colors"
+                         Data="@Data.Data"
+                         Title="@Data.Label"
+                         CategoryProperty="Category"
+                         ValueProperty="Amount" />
+    </RadzenChart>
+</div>
